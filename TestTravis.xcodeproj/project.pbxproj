@@ -14,26 +14,7 @@
 		633F8E5B26159D7C00285A13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633F8E5A26159D7C00285A13 /* Assets.xcassets */; };
 		633F8E5E26159D7C00285A13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633F8E5C26159D7C00285A13 /* LaunchScreen.storyboard */; };
 		633F8E6126159D7C00285A13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633F8E6026159D7C00285A13 /* main.m */; };
-		633F8E6B26159D7C00285A13 /* TestTravisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633F8E6A26159D7C00285A13 /* TestTravisTests.m */; };
-		633F8E7626159D7C00285A13 /* TestTravisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633F8E7526159D7C00285A13 /* TestTravisUITests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		633F8E6726159D7C00285A13 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 633F8E4326159D7A00285A13 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 633F8E4A26159D7A00285A13;
-			remoteInfo = TestTravis;
-		};
-		633F8E7226159D7C00285A13 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 633F8E4326159D7A00285A13 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 633F8E4A26159D7A00285A13;
-			remoteInfo = TestTravis;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		633F8E4B26159D7A00285A13 /* TestTravis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTravis.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,30 +29,10 @@
 		633F8E5D26159D7C00285A13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		633F8E5F26159D7C00285A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633F8E6026159D7C00285A13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		633F8E6626159D7C00285A13 /* TestTravisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTravisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		633F8E6A26159D7C00285A13 /* TestTravisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTravisTests.m; sourceTree = "<group>"; };
-		633F8E6C26159D7C00285A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		633F8E7126159D7C00285A13 /* TestTravisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTravisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		633F8E7526159D7C00285A13 /* TestTravisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTravisUITests.m; sourceTree = "<group>"; };
-		633F8E7726159D7C00285A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		633F8E4826159D7A00285A13 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		633F8E6326159D7C00285A13 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		633F8E6E26159D7C00285A13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				633F8E4D26159D7A00285A13 /* TestTravis */,
-				633F8E6926159D7C00285A13 /* TestTravisTests */,
-				633F8E7426159D7C00285A13 /* TestTravisUITests */,
 				633F8E4C26159D7A00285A13 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				633F8E4B26159D7A00285A13 /* TestTravis.app */,
-				633F8E6626159D7C00285A13 /* TestTravisTests.xctest */,
-				633F8E7126159D7C00285A13 /* TestTravisUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,24 +76,6 @@
 			path = TestTravis;
 			sourceTree = "<group>";
 		};
-		633F8E6926159D7C00285A13 /* TestTravisTests */ = {
-			isa = PBXGroup;
-			children = (
-				633F8E6A26159D7C00285A13 /* TestTravisTests.m */,
-				633F8E6C26159D7C00285A13 /* Info.plist */,
-			);
-			path = TestTravisTests;
-			sourceTree = "<group>";
-		};
-		633F8E7426159D7C00285A13 /* TestTravisUITests */ = {
-			isa = PBXGroup;
-			children = (
-				633F8E7526159D7C00285A13 /* TestTravisUITests.m */,
-				633F8E7726159D7C00285A13 /* Info.plist */,
-			);
-			path = TestTravisUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,42 +96,6 @@
 			productReference = 633F8E4B26159D7A00285A13 /* TestTravis.app */;
 			productType = "com.apple.product-type.application";
 		};
-		633F8E6526159D7C00285A13 /* TestTravisTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 633F8E7D26159D7C00285A13 /* Build configuration list for PBXNativeTarget "TestTravisTests" */;
-			buildPhases = (
-				633F8E6226159D7C00285A13 /* Sources */,
-				633F8E6326159D7C00285A13 /* Frameworks */,
-				633F8E6426159D7C00285A13 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				633F8E6826159D7C00285A13 /* PBXTargetDependency */,
-			);
-			name = TestTravisTests;
-			productName = TestTravisTests;
-			productReference = 633F8E6626159D7C00285A13 /* TestTravisTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		633F8E7026159D7C00285A13 /* TestTravisUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 633F8E8026159D7C00285A13 /* Build configuration list for PBXNativeTarget "TestTravisUITests" */;
-			buildPhases = (
-				633F8E6D26159D7C00285A13 /* Sources */,
-				633F8E6E26159D7C00285A13 /* Frameworks */,
-				633F8E6F26159D7C00285A13 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				633F8E7326159D7C00285A13 /* PBXTargetDependency */,
-			);
-			name = TestTravisUITests;
-			productName = TestTravisUITests;
-			productReference = 633F8E7126159D7C00285A13 /* TestTravisUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,14 +106,6 @@
 				TargetAttributes = {
 					633F8E4A26159D7A00285A13 = {
 						CreatedOnToolsVersion = 12.2;
-					};
-					633F8E6526159D7C00285A13 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 633F8E4A26159D7A00285A13;
-					};
-					633F8E7026159D7C00285A13 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 633F8E4A26159D7A00285A13;
 					};
 				};
 			};
@@ -228,8 +123,6 @@
 			projectRoot = "";
 			targets = (
 				633F8E4A26159D7A00285A13 /* TestTravis */,
-				633F8E6526159D7C00285A13 /* TestTravisTests */,
-				633F8E7026159D7C00285A13 /* TestTravisUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,20 +135,6 @@
 				633F8E5E26159D7C00285A13 /* LaunchScreen.storyboard in Resources */,
 				633F8E5B26159D7C00285A13 /* Assets.xcassets in Resources */,
 				633F8E5926159D7A00285A13 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		633F8E6426159D7C00285A13 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		633F8E6F26159D7C00285A13 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,36 +152,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		633F8E6226159D7C00285A13 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				633F8E6B26159D7C00285A13 /* TestTravisTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		633F8E6D26159D7C00285A13 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				633F8E7626159D7C00285A13 /* TestTravisUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		633F8E6826159D7C00285A13 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 633F8E4A26159D7A00285A13 /* TestTravis */;
-			targetProxy = 633F8E6726159D7C00285A13 /* PBXContainerItemProxy */;
-		};
-		633F8E7326159D7C00285A13 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 633F8E4A26159D7A00285A13 /* TestTravis */;
-			targetProxy = 633F8E7226159D7C00285A13 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		633F8E5726159D7A00285A13 /* Main.storyboard */ = {
@@ -474,82 +324,6 @@
 			};
 			name = Release;
 		};
-		633F8E7E26159D7C00285A13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 254E2VR4TC;
-				INFOPLIST_FILE = TestTravisTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vcinema.TestTravisTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestTravis.app/TestTravis";
-			};
-			name = Debug;
-		};
-		633F8E7F26159D7C00285A13 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 254E2VR4TC;
-				INFOPLIST_FILE = TestTravisTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vcinema.TestTravisTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestTravis.app/TestTravis";
-			};
-			name = Release;
-		};
-		633F8E8126159D7C00285A13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 254E2VR4TC;
-				INFOPLIST_FILE = TestTravisUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vcinema.TestTravisUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TestTravis;
-			};
-			name = Debug;
-		};
-		633F8E8226159D7C00285A13 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 254E2VR4TC;
-				INFOPLIST_FILE = TestTravisUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vcinema.TestTravisUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TestTravis;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -567,24 +341,6 @@
 			buildConfigurations = (
 				633F8E7B26159D7C00285A13 /* Debug */,
 				633F8E7C26159D7C00285A13 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		633F8E7D26159D7C00285A13 /* Build configuration list for PBXNativeTarget "TestTravisTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				633F8E7E26159D7C00285A13 /* Debug */,
-				633F8E7F26159D7C00285A13 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		633F8E8026159D7C00285A13 /* Build configuration list for PBXNativeTarget "TestTravisUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				633F8E8126159D7C00285A13 /* Debug */,
-				633F8E8226159D7C00285A13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
