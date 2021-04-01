@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 
-xctool -workspace MyWorkspace -scheme MyScheme build test
+xctool -workspace TestTravis -scheme TestTravis build test

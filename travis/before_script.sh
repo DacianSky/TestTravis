@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
 
-brew update
-brew install xctool
+sudo brew update
+sudo brew install xctool
